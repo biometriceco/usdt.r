@@ -6,4 +6,4 @@ services:
     container_name: usdtr_web
     restart: unless-stopped
     ports:
-      - "8082:80" # Map host port 8080 to container port 80. Adjust as needed.
+      - "8082:8082" # Map host port 8080 to container port 80. Adjust as needed.
